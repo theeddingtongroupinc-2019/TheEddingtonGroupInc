@@ -1,0 +1,24 @@
+.main-nav-bar {
+    height: 80px; 
+    background: #66142a;
+    color: #fefeff;
+    margin: 0;
+}
+
+.nav-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    display: inline;
+}
+
+.nav-button {
+    background: transparent;
+    color: #fefeff;
+    height: 100%;
+    width: 100%;
+    border-radius: 0px;
+}
