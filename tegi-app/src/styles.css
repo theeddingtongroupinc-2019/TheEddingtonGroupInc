@@ -6,10 +6,22 @@
     src: url(assets/fonts/OpenSans-Regular.ttf);
   }
 
-  @font-face {
-    font-family: 'openSansItalics';
-    src: url(assets/fonts/OpenSans-Italic.ttf);
-  }
+@font-face {
+  font-family: 'openSansItalics';
+  src: url(assets/fonts/OpenSans-Italic.ttf);
+}
+@font-face {
+  font-family: 'nunito';
+  src: url(assets/fonts/Nunito-Regular.ttf);
+}
+@font-face {
+  font-family: 'nunitoSemi';
+  src: url(assets/fonts/Nunito-SemiBold.ttf);
+}
+@font-face {
+  font-family: 'nunitoLight';
+  src: url(assets/fonts/Nunito-Light.ttf);
+}
 
 * {
     font-family: 'openSans';

@@ -1,6 +1,7 @@
 
 /* -----------------PARALLAX---------------- */
 .parallax { 
+  padding-top: 80px;
     /* The image used */
     background-image: url("../../assets/imgs/parrallax-bg-3.jpg");
   
@@ -22,7 +23,7 @@
       /* box-shadow: 3px 3px 10px; */
   }
 
-  /*  */
+  /* ----------------------------------------- */
 
   .tag-line-banner {
     padding-top: 265px;
@@ -36,5 +37,33 @@
     position: absolute;
     padding: 75px;
     width: 100%;
-    background: rgba(225,225,225, 0.8);
+    background: rgba(225, 225, 225, 0.8);
+  }
+
+  .home-container {
+    margin: 30px 10% 250px;
+  }
+
+  .intro-section {
+    font-family: 'nunitoSemi' !important;
+    border-radius: 6px;
+    padding: 30px 45px;
+    color: #eaeaea;
+    background: rgba(102, 20, 42, 0.6);
+  }
+
+  .main-section {
+    font-family: 'nunitoSemi' !important;
+    border-radius: 6px;
+    padding: 30px 45px;
+    color: #eaeaea;
+    background: rgba(102, 20, 42, 0.6);
+  }
+
+  .footer {
+    font-size: 12px;
+    bottom: 0;
+    color: #eaeaea;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 20px;
   }

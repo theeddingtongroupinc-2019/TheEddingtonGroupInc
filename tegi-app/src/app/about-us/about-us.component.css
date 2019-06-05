@@ -1,0 +1,12 @@
+.container {
+    padding-top: 80px;
+    
+}
+
+.about-us-container {
+    color: #505464;
+    margin: 0px 10% 250px;
+    background: #eaeaea;
+    min-height: 100vh;
+    padding: 30px 45px;
+  }

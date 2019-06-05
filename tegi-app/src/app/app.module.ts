@@ -7,12 +7,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TegiHomeComponent } from './tegi-home/tegi-home.component';
 import { MainNavComponent } from './main-nav/main-nav.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TegiHomeComponent,
-    MainNavComponent
+    MainNavComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,
