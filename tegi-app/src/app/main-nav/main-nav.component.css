@@ -3,6 +3,7 @@
     background: #66142a;
     color: #fefeff;
     margin: 0;
+    z-index: 9999;
     position: fixed;
 }
 
@@ -23,7 +24,7 @@
     font-size: 25px;
     top: 30px;
     opacity: 0;
-    transition: 300ms;
+    transition: 400ms;
 }
 
 .nav-list-btn {
@@ -33,27 +34,27 @@
     height: 100%;
     width: 100%;
     border-radius: 0px;
-    transition: 300ms;
+    transition: 400ms;
 }
 
 .nav-title {
     opacity: 1;
-    transition: 300ms;
+    transition: 400ms;
 }
 
 .nav-list-btn:hover {
     background: rgba(0,0,0,.1);
-    transition: 300ms;
+    transition: 400ms;
     border-bottom: 6px solid #eaeaea;
     
 }
 
 .nav-list-btn:hover .nav-icon {
     opacity: 1;
-    transition: 300ms;
+    transition: 400ms;
 }
 
 .nav-list-btn:hover .nav-title {
     opacity: 0;
-    transition: 300ms;
+    transition: 400ms;
 }

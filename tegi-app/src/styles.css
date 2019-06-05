@@ -6,6 +6,11 @@
     src: url(assets/fonts/OpenSans-Regular.ttf);
   }
 
+  @font-face {
+    font-family: 'openSansItalics';
+    src: url(assets/fonts/OpenSans-Italic.ttf);
+  }
+
 * {
     font-family: 'openSans';
 }

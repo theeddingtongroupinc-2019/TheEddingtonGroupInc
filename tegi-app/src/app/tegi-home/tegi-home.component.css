@@ -2,7 +2,7 @@
 /* -----------------PARALLAX---------------- */
 .parallax { 
     /* The image used */
-    background-image: url("../../assets/imgs/parrallax-bg-2.jpg");
+    background-image: url("../../assets/imgs/parrallax-bg-3.jpg");
   
     /* Set a specific height */
     height: 650px; 
@@ -12,4 +12,29 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .parallax-overlay {
+      background: rgba(0, 0, 0, 0.4);
+      /* background: #0D2B0D; */
+      height: 100%;
+      width: 100%;
+      /* box-shadow: 3px 3px 10px; */
+  }
+
+  /*  */
+
+  .tag-line-banner {
+    padding-top: 265px;
+  }
+
+  .tag-line-text {
+    font-size: 25px;
+    font-family: 'openSansItalics';
+    color: #505464;
+    text-align: center;
+    position: absolute;
+    padding: 75px;
+    width: 100%;
+    background: rgba(225,225,225, 0.8);
   }
