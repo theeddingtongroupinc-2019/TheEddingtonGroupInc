@@ -26,3 +26,25 @@
 * {
     font-family: 'openSans';
 }
+
+.pale-pink {
+  background: #F0E5DE;
+}
+
+.pale-green {
+  background: #ABD0CE;
+}
+
+.pale-brown {
+  background: #D9D4CF;
+}
+
+.brown {
+  background: #7C7877;
+}
+
+/* -------------------------------------------------*/
+
+.main-panel {
+  height: -webkit-fill-available;
+}
