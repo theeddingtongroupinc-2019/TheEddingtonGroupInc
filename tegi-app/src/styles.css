@@ -23,12 +23,22 @@
   src: url(assets/fonts/Nunito-Light.ttf);
 }
 
+@font-face {
+  font-family: 'big';
+  src: url(assets/fonts/BIGJOHN.otf);
+}
+
+@font-face {
+  font-family: 'slim';
+  src: url(assets/fonts/SlimJoe.otf);
+}
+
 * {
     font-family: 'openSans';
 }
 
 .pale-pink {
-  background: #F0E5DE;
+  background: rgb(240, 229, 222);
 }
 
 .pale-green {
@@ -45,6 +55,29 @@
 
 /* -------------------------------------------------*/
 
+.container {
+  margin-right: 0 !important;
+}
+
+.main-left-panel {
+  /* background-image: url("../src/assets/imgs/paint-bg-1.jpg"); */
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9) , rgba(240, 229, 222, 1)), url("../src/assets/imgs/paint-bg-1.jpg");
+  background-size: cover;
+}
+
+button {
+  outline: none !important;
+}
+
 .main-panel {
   height: -webkit-fill-available;
+}
+
+.main-btn {
+  background: transparent;
+  border: 3px solid #fff !important;
+  border-radius: 0px !important;
+  width: 170px;
+  color: #fff;
+  font-weight: bolder;
 }

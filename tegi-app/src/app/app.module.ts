@@ -22,6 +22,9 @@ import { AboutUsComponent } from './about-us/about-us.component';
     MatButtonModule,
     AppRoutingModule
   ],
+  exports: [
+    MatButtonModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
