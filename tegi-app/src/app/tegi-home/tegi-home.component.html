@@ -1,7 +1,11 @@
 <div class="row">
+
     <div class="col-8 pale-pink main-left-panel">
         <div class="row">
-            <div class="col-12 text-center" style="margin-top: 250px;">
+            <div class="col-12 text-center logo-container">
+
+            </div>
+            <div class="col-12 text-center fade-in one" style="margin-top: 250px;">
                 <h1 style="color: #D9D4CF; font-size: 3.5rem;">
                     <span style="font-family: 'big'">
                         ART
@@ -12,38 +16,69 @@
                 </h1>
             </div>
         </div>
-        <div class="row">
+        <div class="row fade-in two">
             <div class="col-6" style="border-right: 3px solid #fff; margin-top: 250px;">
-                <button href="gallery" class="main-btn" style="float: right;">
+                <button mat-flat-button class="main-btn" style="float: right;" onClick="document.getElementById('gallery').scrollIntoView();">
                     GALLERY
                 </button>
             </div>
             <div class="col-6" style="margin-top: 250px;">
-                <button class="main-btn" style="float: left;">
+                <button mat-flat-button class="main-btn" style="float: left;">
                     CONTACT
                 </button>
             </div>
         </div>
     </div>
     <div class="col-4 pale-brown main-panel">
-        <div class="row">
+        <div class="row fade-in two">
             <div class="col-12">
-                <div class="logo-container">
+                <div class="text-center logo-container">
 
+                </div>
+                <div class="col-12">
+                    <h1
+                        style="color: #7C7877; font-size: 7.4rem; font-family: 'welcome'; text-align: center; margin-top: 235px; border-bottom: 5px solid #7C7877; height: 115px;">
+                        Welcome.
+                    </h1>
+                    <p class="welcome-paragraph">
+                        Lorem ipsum dolor sit amet, <span style="font-family: 'big';">consectetur</span> adipiscing
+                        elit, sed do eiusmod tempor incididunt
+                        ut labore et dolore magna <span style="font-family: 'big';">aliqua</span>. Ut enim ad minim
+                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
 </div>
 <div id="gallery" class="row">
-    <div class="col-8 pale-pink">
-        <div style="height: 6000px">
-            <img style="height: 70px" src="../../assets/imgs/paint-bg-1.jpg">
-
+    <div class="col-12 pale-pink">
+        <div class="row" style="height: 6000px; padding: 40px;">
+            <div class="col-3 text-center">
+                <img class="art-img" src="../../assets/imgs/paint-bg-1.jpg">
+            </div>
+            <div class="col-3 text-center">
+                <img class="art-img" src="../../assets/imgs/paint-bg-1.jpg">
+            </div>
+            <div class="col-3 text-center">
+                <img class="art-img" src="../../assets/imgs/paint-bg-1.jpg">
+            </div>
+            <div class="col-3 text-center">
+                <img class="art-img" src="../../assets/imgs/paint-bg-1.jpg">
+            </div>
+            <div class="col-3 text-center">
+                <img class="art-img" src="../../assets/imgs/paint-bg-1.jpg">
+            </div>
+            <div class="col-3 text-center">
+                <img class="art-img" src="../../assets/imgs/paint-bg-1.jpg">
+            </div>
+            <div class="col-3 text-center">
+                <img class="art-img" src="../../assets/imgs/paint-bg-1.jpg">
+            </div>
+            <div class="col-3 text-center">
+                <img class="art-img" src="../../assets/imgs/paint-bg-1.jpg">
+            </div>
         </div>
-
-    </div>
-    <div class="col-4 pale-pink">
 
     </div>
 </div>
