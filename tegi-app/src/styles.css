@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/dist/css/bootstrap.min.css';
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
 @font-face {
     font-family: 'openSans';
@@ -72,6 +73,12 @@
 html {
   scroll-behavior: smooth;
  }
+
+ .gallery-btn > .mat-ripple-element {
+  transition-duration: 0ms !important;
+  color: transparent;
+  background: transparent;
+}
  
 .container {
   margin-right: 0 !important;
@@ -81,7 +88,7 @@ html {
   /* background-image: url("../src/assets/imgs/paint-bg-1.jpg"); */
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9) , rgba(240, 229, 222, 1)), url("../src/assets/imgs/paint-bg-1.jpg");
   background-size: cover;
-  height:100vh;
+  height:100vh !important;
 }
 
 button {
@@ -127,10 +134,40 @@ button {
 .art-description {
   margin-top: 10px;
   color: #7C7877;
-  border-right: 3px solid #AAABD3;
   font-family: 'slim';
   font-weight: bold;
   text-align: right;
+}
+
+.description-panel {
+  border-radius: 0px !important;     
+  background: transparent;
+}
+
+.art-description-text {
+  padding-right: 0px;
+  font-family: 'slim';
+  font-weight: bold;
+}
+
+.action-btn {
+  width: 200px;
+  border-radius: 0px !important;
+  color: #D9D4CF;
+  background: transparent;
+  transition: 300ms ease;
+  font-family: 'big';
+  border: 3px solid #D9D4CF !important;
+  letter-spacing: 8px;
+
+}
+
+.action-btn:hover {
+  color: #7C7877;
+  background: #D9D4CF;
+  letter-spacing: 10px;
+  transition: 300ms ease;
+
 }
 
 .mat-expansion-panel-header {
@@ -139,37 +176,74 @@ button {
 
 .mat-expansion-panel-body {
   padding: 5px 5px 0px 0px !important;
+  border-right: 3px solid #AAABD3;
 }
 
 .welcome-paragraph {
-  color: #D9D4CF;
+  color: #7C7877;
   font-family: 'slim';
   text-align: right;
+  font-size: 15px !important;
   font-weight: bold;
   font-size: 22px;
   letter-spacing: 4px;
-  padding: 0 22%;
-
 }
 
 .chevron {
-  position: absolute; 
-  left: 50%; 
-  margin-left: -50px; 
-  bottom: -30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 5px;
+  padding-left: 10px;
   transition: 250ms;
   transition-timing-function: ease-out;
 }
 
-.main-btn:hover + .chevron {
-  bottom: -40px;
+.main-btn:hover .chevron {
+  bottom: 0px !important;
   transition: 250ms;
   transition-timing-function: ease-out;
+}
+
+.mat-expansion-panel:not([class*=mat-elevation-z]) {
+  box-shadow: 
+  0 0px 0px 0px rgba(0,0,0,0), 
+  0 0px 0px 0 rgba(0,0,0,0), 
+  0 0px 0px 0 rgba(0,0,0,0);
 }
 
 /* ---------------------------------------------- */
+.mat-drawer {
+  overflow: hidden;
+  transform: none;
+  visibility: visible;
+  background: #D9D4CF;
+  width: 20%;
+}
+.mat-drawer-container {
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  display: block;
+  overflow: hidden !important;
+  height: 100%;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+.mat-drawer-inner-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden !important;
+}
 
-
+.mat-drawer-content {
+  position: relative;
+  z-index: 1;
+  display: block;
+  height: 100%;
+  overflow: hidden !important;
+}
 
 /* ---------------------------------------------- */
 
