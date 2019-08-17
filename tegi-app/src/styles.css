@@ -81,6 +81,7 @@ html {
   /* background-image: url("../src/assets/imgs/paint-bg-1.jpg"); */
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9) , rgba(240, 229, 222, 1)), url("../src/assets/imgs/paint-bg-1.jpg");
   background-size: cover;
+  height:100vh;
 }
 
 button {
@@ -93,42 +94,76 @@ button {
 
 .main-btn {
   background: transparent;
-    border: 3px solid #D9D4CF !important;
+    border: 1px solid transparent !important;
     border-radius: 0px !important;
     width: 200px;
-    color: #D9D4CF;
+    color: #7C7877;
     font-weight: bolder;
     letter-spacing: 8px;
-    transition: 500ms;
+    transition: 250ms;
 }
 
 .main-btn:hover {
-  background: #D9D4CF;
-    color: #7C7877;
     letter-spacing: 10px;
-    transition: 500ms;
+    transition: 250ms;
 }
 
 .art-img {
-  height: 400px;
+  /* object-fit: cover; */
+    width: 100%;
     box-shadow: 0px 0px 0px 0px;
-    transition: 450ms;
+    transition: 350ms ease;
 }
 
 .art-img:hover {
-  height: 402px;
     box-shadow: 2px 4px 6px 0px;
-    transition: 450ms;
+    transition: 350ms ease;
+}
+
+.art-container {
+  padding: 60px;
+}
+
+.art-description {
+  margin-top: 20px;
+  color: #7C7877;
+  border-right: 3px solid #AAABD3;
+  font-family: 'slim';
+  font-weight: bold;
+  text-align: right;
+
+
 }
 
 .welcome-paragraph {
-  color: #7C7877;
+  color: #D9D4CF;
   font-family: 'slim';
   text-align: right;
   font-weight: bold;
   font-size: 22px;
   letter-spacing: 4px;
+  padding: 0 22%;
+
 }
+
+.chevron {
+  position: absolute; 
+  left: 50%; 
+  margin-left: -50px; 
+  bottom: -30px;
+  transition: 250ms;
+  transition-timing-function: ease-out;
+}
+
+.main-btn:hover + .chevron {
+  bottom: -40px;
+  transition: 250ms;
+  transition-timing-function: ease-out;
+}
+
+/* ---------------------------------------------- */
+
+
 
 /* ---------------------------------------------- */
 

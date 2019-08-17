@@ -1,11 +1,10 @@
 <div class="row">
-
-    <div class="col-8 pale-pink main-left-panel">
-        <div class="row">
+    <div class="col-12 pale-pink main-left-panel">
+        <div class="row" style="height: 50%;">
             <div class="col-12 text-center logo-container">
 
             </div>
-            <div class="col-12 text-center fade-in one" style="margin-top: 200px;">
+            <div class="col-12 text-center fade-in one" style="margin-top: 100px;">
                 <h1 style="color: #D9D4CF; font-size: 3.5rem;">
                     <span style="font-family: 'big'">
                         ART
@@ -15,21 +14,32 @@
                     </span>
                 </h1>
             </div>
+            <p class="welcome-paragraph">
+                Lorem ipsum dolor sit amet, <span style="font-family: 'big';">consectetur</span> adipiscing
+                elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna <span style="font-family: 'big';">aliqua</span>. Ut enim ad minim
+                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
         </div>
-        <div class="row fade-in two">
-            <div class="col-6" style="border-right: 3px solid #D9D4CF; margin-top: 200px;">
-                <button mat-flat-button class="main-btn" style="float: right;" onClick="document.getElementById('gallery').scrollIntoView();">
+        <div class="row fade-in two text-center" style="height: 50%;">
+            <div class="text-center" style="height: 100%;">
+                <button mat-flat-button class="main-btn text-center"
+                    style="position: absolute; left: 50%; margin-left: -85px; bottom: 4px;"
+                    onClick="document.getElementById('gallery').scrollIntoView();">
                     GALLERY
                 </button>
+                <div class="main-btn chevron text-center row">
+                    <img style="height: 45px; width: 120px;" src="../../assets/icons/chevron down.png">
+                </div>
             </div>
-            <div class="col-6" style="margin-top: 200px;">
+            <!-- <div class="col-6" style="margin-top: 200px;">
                 <button mat-flat-button class="main-btn" style="float: left;">
                     CONTACT
                 </button>
-            </div>
+            </div> -->
         </div>
     </div>
-    <div class="col-4 pale-brown main-panel">
+    <!-- <div class="col-4 pale-brown main-panel">
         <div class="row fade-in two">
             <div class="col-12">
                 <div class="text-center logo-container">
@@ -49,34 +59,158 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </div>
-<div id="gallery" class="row">
+<div id="gallery" class="row" style="height: 100%;">
     <div class="col-12 pale-pink">
-        <div class="row" style="height: 6000px; padding: 40px;">
-            <div class="col-3 text-center">
-                <img class="art-img" src="../../assets/imgs/paint-bg-1.jpg">
+        <div class="row" style="padding: 40px;">
+            <div class="col-3 text-center art-container">
+                <div class="row">
+                    <img class="art-img" src="../../assets/imgs/paint-bg-1.jpg">
+                </div>
+                <div class="row art-description">
+                    <h6 class="col-12"
+                        style="padding-right: 0; font-family: 'big'; margin-bottom: 0; background: #AAABD3; padding: 5px 5px 0px 0px;">
+                        Art Title</h6>
+                    <h5 class="col-12"
+                        style="padding-right: 0; font-family: 'big'; background: #AAABD3; padding: 0 5px 5px;">Artist
+                    </h5>
+                    <div style="padding-right: 5px; font-family: 'slim';">
+                        Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </div>
+                </div>
             </div>
-            <div class="col-3 text-center">
-                <img class="art-img" src="../../assets/imgs/paint-bg-1.jpg">
+            <div class="col-3 text-center art-container">
+                <div class="row">
+                    <img class="art-img" src="../../assets/imgs/Standing-Strong-768x1086.jpg">
+                </div>
+                <div class="row art-description">
+                    <h6 class="col-12"
+                        style="padding-right: 0; font-family: 'big'; margin-bottom: 0; background: #AAABD3; padding: 5px 5px 0px 0px;">
+                        Art Title</h6>
+                    <h5 class="col-12"
+                        style="padding-right: 0; font-family: 'big'; background: #AAABD3; padding: 0 5px 5px;">Artist
+                    </h5>
+                    <div style="padding-right: 5px; font-family: 'slim';">
+                        Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </div>
+                </div>
             </div>
-            <div class="col-3 text-center">
-                <img class="art-img" src="../../assets/imgs/paint-bg-1.jpg">
+            <div class="col-3 text-center art-container">
+                <div class="row">
+
+
+                    <img class="art-img" src="../../assets/imgs/painting-3995999_1280.jpg">
+                </div>
+                <div class="row art-description">
+                    <h6 class="col-12"
+                        style="padding-right: 0; font-family: 'big'; margin-bottom: 0; background: #AAABD3; padding: 5px 5px 0px 0px;">
+                        Art Title</h6>
+                    <h5 class="col-12"
+                        style="padding-right: 0; font-family: 'big'; background: #AAABD3; padding: 0 5px 5px;">Artist
+                    </h5>
+                    <div style="padding-right: 5px; font-family: 'slim';">
+                        Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </div>
+                </div>
             </div>
-            <div class="col-3 text-center">
-                <img class="art-img" src="../../assets/imgs/paint-bg-1.jpg">
+            <div class="col-3 text-center art-container">
+                <div class="row">
+
+
+                    <img class="art-img" src="../../assets/imgs/art-quiz-bloomberg-question-02.jpg">
+                </div>
+                <div class="row art-description">
+                    <h6 class="col-12"
+                        style="padding-right: 0; font-family: 'big'; margin-bottom: 0; background: #AAABD3; padding: 5px 5px 0px 0px;">
+                        Art Title</h6>
+                    <h5 class="col-12"
+                        style="padding-right: 0; font-family: 'big'; background: #AAABD3; padding: 0 5px 5px;">Artist
+                    </h5>
+                    <div style="padding-right: 5px; font-family: 'slim';">
+                        Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </div>
+                </div>
             </div>
-            <div class="col-3 text-center">
-                <img class="art-img" src="../../assets/imgs/paint-bg-1.jpg">
+            <div class="col-3 text-center art-container">
+                <div class="row">
+
+
+                    <img class="art-img" src="../../assets/imgs/Standing-Strong-768x1086.jpg">
+                </div>
+                <div class="row art-description">
+                    <h6 class="col-12"
+                        style="padding-right: 0; font-family: 'big'; margin-bottom: 0; background: #AAABD3; padding: 5px 5px 0px 0px;">
+                        Art Title</h6>
+                    <h5 class="col-12"
+                        style="padding-right: 0; font-family: 'big'; background: #AAABD3; padding: 0 5px 5px;">Artist
+                    </h5>
+                    <div style="padding-right: 5px; font-family: 'slim';">
+                        Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </div>
+                </div>
             </div>
-            <div class="col-3 text-center">
-                <img class="art-img" src="../../assets/imgs/paint-bg-1.jpg">
+            <div class="col-3 text-center art-container">
+                <div class="row">
+
+
+                    <img class="art-img" src="../../assets/imgs/paint-bg-1.jpg">
+                </div>
+                <div class="row art-description">
+                    <h6 class="col-12"
+                        style="padding-right: 0; font-family: 'big'; margin-bottom: 0; background: #AAABD3; padding: 5px 5px 0px 0px;">
+                        Art Title</h6>
+                    <h5 class="col-12"
+                        style="padding-right: 0; font-family: 'big'; background: #AAABD3; padding: 0 5px 5px;">Artist
+                    </h5>
+                    <div style="padding-right: 5px; font-family: 'slim';">
+                        Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </div>
+                </div>
             </div>
-            <div class="col-3 text-center">
-                <img class="art-img" src="../../assets/imgs/paint-bg-1.jpg">
+            <div class="col-3 text-center art-container">
+                <div class="row">
+
+
+                    <img class="art-img" src="../../assets/imgs/painting-3995999_1280.jpg">
+                </div>
+                <div class="row art-description">
+                    <h6 class="col-12"
+                        style="padding-right: 0; font-family: 'big'; margin-bottom: 0; background: #AAABD3; padding: 5px 5px 0px 0px;">
+                        Art Title</h6>
+                    <h5 class="col-12"
+                        style="padding-right: 0; font-family: 'big'; background: #AAABD3; padding: 0 5px 5px;">Artist
+                    </h5>
+                    <div style="padding-right: 5px; font-family: 'slim';">
+                        Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </div>
+                </div>
             </div>
-            <div class="col-3 text-center">
-                <img class="art-img" src="../../assets/imgs/paint-bg-1.jpg">
+            <div class="col-3 text-center art-container">
+                <div class="row">
+
+
+                    <img class="art-img" src="../../assets/imgs/Standing-Strong-768x1086.jpg">
+                </div>
+                <div class="row art-description">
+                    <h6 class="col-12"
+                        style="padding-right: 0; font-family: 'big'; margin-bottom: 0; background: #AAABD3; padding: 5px 5px 0px 0px;">
+                        Art Title</h6>
+                    <h5 class="col-12"
+                        style="padding-right: 0; font-family: 'big'; background: #AAABD3; padding: 0 5px 5px;">Artist
+                    </h5>
+                    <div style="padding-right: 5px; font-family: 'slim';">
+                        Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </div>
+                </div>
             </div>
         </div>
 
