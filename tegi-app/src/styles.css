@@ -148,6 +148,7 @@ button {
   padding-right: 0px;
   font-family: 'slim';
   font-weight: bold;
+  color: #7C7877 !important;
 }
 
 .action-btn {
@@ -177,6 +178,10 @@ button {
 .mat-expansion-panel-body {
   padding: 5px 5px 0px 0px !important;
   border-right: 3px solid #AAABD3;
+}
+
+.mat-expansion-indicator::after, .mat-expansion-panel-header-description {
+  color: #7C7877 !important;
 }
 
 .welcome-paragraph {
@@ -210,6 +215,10 @@ button {
   0 0px 0px 0px rgba(0,0,0,0), 
   0 0px 0px 0 rgba(0,0,0,0), 
   0 0px 0px 0 rgba(0,0,0,0);
+}
+
+.mat-expansion-panel-header-title {
+  color: #7C7877 !important;
 }
 
 /* ---------------------------------------------- */
