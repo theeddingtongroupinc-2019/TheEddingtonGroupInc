@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ContactDialogComponent } from '../contact-dialog/contact-dialog.component';
 import { MatDialog } from '@angular/material/dialog';
+import { ImageDialogComponent } from '../image-dialog/image-dialog.component';
 
 @Component({
   selector: 'app-tegi-home',
@@ -17,6 +18,17 @@ export class TegiHomeComponent implements OnInit {
   openDialog(): void {
     const dialogRef = this.dialog.open(ContactDialogComponent, {
      
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log('The dialog was closed');
+    });
+  }
+
+  openImageDialog(): void {
+    const dialogRef = this.dialog.open(ImageDialogComponent, {
+      height:'95vh',
+      width: '95vh'
     });
 
     dialogRef.afterClosed().subscribe(result => {
