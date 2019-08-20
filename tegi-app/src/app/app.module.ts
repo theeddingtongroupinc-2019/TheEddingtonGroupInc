@@ -8,6 +8,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatRippleModule } from '@angular/material/core';
 import { OwlModule } from 'ngx-owl-carousel';
+import { MatInputModule } from '@angular/material/input';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -28,6 +29,7 @@ import { ImageDialogComponent } from './image-dialog/image-dialog.component';
   ],
   imports: [
     BrowserModule,
+    MatInputModule,
     BrowserAnimationsModule,
     MatDialogModule,
     MatToolbarModule,

@@ -1,6 +1,7 @@
 <div class="row">
     <div class="col-12 pale-pink ">
         <mat-drawer-container class="example-container main-left-panel" autosize>
+
             <mat-drawer #drawer class="sidenav" mode="over" [position]="'end'">
                 <div class="row fade-in two">
                     <div class="col-12">
@@ -8,7 +9,8 @@
 
                         </div>
                         <div class="col-12">
-                            <h1 style="color: #7C7877; font-size: 7.4rem; font-family: 'welcome'; text-align: center; margin-top: 185px; border-bottom: 5px solid #7C7877; height: 115px;">
+                            <h1
+                                style="color: #7C7877; font-size: 7.4rem; font-family: 'welcome'; text-align: center; margin-top: 185px; border-bottom: 5px solid #7C7877; height: 115px;">
                                 Welcome.
                             </h1>
                             <p class="welcome-paragraph">
@@ -23,6 +25,32 @@
                         </div>
                     </div>
                 </div>
+            </mat-drawer>
+            <mat-drawer #drawer2 class="sidenav" mode="over">
+                <h3 style="margin-top: 40px; font-family: 'big'; text-align: center; color: #7C7877;">CONTACT</h3>
+                <form class="example-form row" style="padding: 40px 30px;">
+                    <mat-form-field class="example-full-width col-12" appearance="outline">
+                        <mat-label>Name</mat-label>
+                        <input matInput placeholder="" value="">
+                    </mat-form-field>
+                    <mat-form-field class="example-full-width col-12" appearance="outline">
+                            <mat-label>E-mail</mat-label>
+                        <input matInput placeholder="" value="">
+                    </mat-form-field>
+                    <mat-form-field class="example-full-width col-12" appearance="outline">
+                            <mat-label>Phone</mat-label>
+                        <input matInput placeholder="" value="">
+                    </mat-form-field>
+                    
+                    <mat-form-field class="example-full-width col-12" style="margin-top: 42px !important;" appearance="outline">
+                            <mat-label>Subject</mat-label>
+                        <input matInput placeholder="" value="">
+                    </mat-form-field>
+                    <mat-form-field class="example-full-width col-12" appearance="outline">
+                            <mat-label>Message</mat-label>
+                        <textarea matInput placeholder="" rows="4"></textarea>
+                    </mat-form-field>
+                </form>
             </mat-drawer>
             <div class="row" style="height: 50%;">
                 <div class="col-12 text-center logo-container">
@@ -41,7 +69,7 @@
             </div>
             <div class="row fade-in two text-center" style="height: 50%;">
                 <div class="col-6" style=" border-right: 3px solid #D9D4CF; height: 45px">
-                    <button mat-flat-button class="action-btn" style="float: right;" (click)="openDialog()">
+                    <button mat-flat-button class="action-btn" style="float: right;" (click)="drawer2.toggle()">
                         CONTACT
                     </button>
                 </div>
@@ -63,6 +91,21 @@
                     </button>
                 </div>
             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </mat-drawer-container>
     </div>
 </div>
